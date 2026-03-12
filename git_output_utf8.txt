@@ -1,0 +1,59 @@
+﻿Running git add
+cmd.exe : warning: in 
+the working copy of 
+'push_to_github.bat', 
+LF will be replaced by 
+CRLF the next time Git 
+touches it
+At line:1 char:1
++ cmd.exe /c 
+push_to_github.bat > 
+git_output.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~
+    + CategoryInfo      
+        : NotSpecified  
+  : (warning: in the.   
+ .. Git touches it:S    
+tring) [], RemoteEx    
+ception
+    + FullyQualifiedErr 
+   orId : NativeComman  
+  dError
+ 
+Running git commit
+Author identity unknown
+
+*** Please tell me who 
+you are.
+
+Run
+
+  git config --global 
+user.email 
+"you@example.com"
+  git config --global 
+user.name "Your Name"
+
+to set your account's 
+default identity.
+Omit --global to set 
+the identity only in 
+this repository.
+
+fatal: unable to 
+auto-detect email 
+address (got 
+'Acer@RORO.(none)')
+Running git branch
+Running git remote
+error: remote origin 
+already exists.
+Running git push
+error: src refspec main 
+does not match any
+error: failed to push 
+some refs to 'https://gi
+thub.com/CodHemantE/Prom
+ptForge-AI-App.git'
