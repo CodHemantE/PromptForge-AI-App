@@ -1,9 +1,10 @@
 {
-  "buildCommand": "cd frontend && npm run build",
-  "installCommand": "cd frontend && npm install",
+  {
+  "buildCommand": "cd frontend && npx vite build",
   "outputDirectory": "frontend/dist",
-  "framework": "vite",
-  "rewrites": [
+  "installCommand": "cd frontend && npm install",
+  "framework": null
+}
     {
       "source": "/api/(.*)",
       "destination": "/api/index.py"
